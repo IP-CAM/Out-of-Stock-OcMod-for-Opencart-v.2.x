@@ -11,4 +11,4 @@ For custom html/css or design delivery you can get in touch with me at sergey@to
 ### Extension on marketplace
 https://www.opencart.com/index.php?route=marketplace/extension/info&member_token=Yu4UPzucAyPbvy5M3OzqcdoVWdIy9ugB&extension_id=33227
 
-### Created by Sergey Golovashkin ( @holovashkin )
+### Created by Sergey Golovashkin
