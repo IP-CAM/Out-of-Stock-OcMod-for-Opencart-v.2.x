@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification> 
+	<name>Out of stock category items become gray</name> 
+	<version>1.001</version> 
+	<link>https://holovashkin.xyz</link>
+	<author>sergey@holovashkin.xyz</author>   
+	<code>outofstock_items_become_gray</code> 
+
+    <!--  images become gray  -->
+    <file path="catalog/view/theme/*/template/product/category.tpl">
+        <operation>
+            <search><![CDATA[<div class="product-thumb">]]></search>
+            <add position="replace"><![CDATA[
+			    <?php if ($product['quantity'] <= 0) { ?>
+                        
+                <div class="product-thumb out-of-stock">
+                <?php } else { ?> 
+                 
+            
+                <div class="product-thumb">
+                <?php } ?>]]></add>
+        </operation>
+    </file> 
+</modification>
